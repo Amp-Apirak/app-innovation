@@ -1,0 +1,13 @@
+
+.col {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+@font-face{
+    font-family:title;
+    src:url('font/THSarabunNew.ttf');
+}
+.font1{
+    font-family: title;
+    font-size:25px;
+}
