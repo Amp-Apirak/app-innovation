@@ -10,11 +10,11 @@
 
 
     <!----------------------------- start header ------------------------------->
-    <?php include ("../pms/templated/head.php");?>
+    <?php include_once("templated/head.php");?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include ("../pms/templated/menu.php");?>
+    <?php include_once("templated/menu.php");?>
     <!----------------------------- end menu --------------------------------->
 
 
@@ -350,5 +350,5 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include ("../pms/templated/footer.php");?>
+    <?php include_once("templated/footer.php");?>
     <!----------------------------- end menu --------------------------------->

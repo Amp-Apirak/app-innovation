@@ -29,21 +29,21 @@
 
 
 
-        $target_dir = "../pms/example/";
+        $target_dir = "example/";
         $target_file = $target_dir . basename($_FILES["file_im1"]["name"]);
         $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
-        $target_dir1 = "../pms/example/";
+        $target_dir1 = "example/";
         $target_file1 = $target_dir1 . basename($_FILES["file_im2"]["name"]);
         $imageFileType1 = strtolower(pathinfo($target_file1, PATHINFO_EXTENSION));
         $file_im2 = $_FILES["file_im2"]["name"] ;
 
-        $target_dir3 = "../pms/example/";
+        $target_dir3 = "example/";
         $target_file3 = $target_dir3 . basename($_FILES["file_im3"]["name"]);
         $imageFileType3 = strtolower(pathinfo($target_file3, PATHINFO_EXTENSION));
         $file_im3 = $_FILES["file_im3"]["name"] ;
         
-        $target_dir4 = "../pms/example/";
+        $target_dir4 = "example/";
         $target_file4 = $target_dir4 . basename($_FILES["file_im4"]["name"]);
         $imageFileType4 = strtolower(pathinfo($target_file4, PATHINFO_EXTENSION));
         $file_im4 = $_FILES["file_im4"]["name"] ;
@@ -90,19 +90,19 @@
 
             $file_im1 = $_FILES['file_im1']['name'];
             $file_tmp = $_FILES['file_im1']['tmp_name'];
-            move_uploaded_file($file_tmp, "../pms/example/$file_im1");
+            move_uploaded_file($file_tmp, "example/$file_im1");
 
             $file_im2 = $_FILES['file_im2']['name'];
             $file_tmp1 = $_FILES['file_im2']['tmp_name'];
-            move_uploaded_file($file_tmp1, "../pms/example/$file_im2");
+            move_uploaded_file($file_tmp1, "example/$file_im2");
 
             $file_im3 = $_FILES['file_im3']['name'];
             $file_tmp3 = $_FILES['file_im3']['tmp_name'];
-            move_uploaded_file($file_tmp3, "../pms/example/$file_im3");
+            move_uploaded_file($file_tmp3, "example/$file_im3");
 
             $file_im4 = $_FILES['file_im4']['name'];
             $file_tmp4 = $_FILES['file_im4']['tmp_name'];
-            move_uploaded_file($file_tmp4, "../pms/example/$file_im4");
+            move_uploaded_file($file_tmp4, "example/$file_im4");
 
 
 
@@ -146,7 +146,7 @@
 
                    
        
-                   $sMessage .= "ติดตามงานได้ที่ Link Web: http://iss.pointit.co.th/pms/index.php \n";
+                   $sMessage .= "ติดตามงานได้ที่ Link Web: http://localhost" . BASE_URL . "/index.php \n";
        
        
                    $chOne = curl_init(); 

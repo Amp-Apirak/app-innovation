@@ -9,11 +9,11 @@
 
 
     <!----------------------------- start header ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/head.php'); ?>
+    <?php include_once('templated/head.php'); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/menu.php'); ?>
+    <?php include_once('templated/menu.php'); ?>
     <!----------------------------- end menu --------------------------------->
 
       <!----------------------------- start Time ------------------------------->
@@ -95,7 +95,7 @@
                                 <div class="col-12">
                                     <h4>
                                         <i class="image">
-                                            <img src="../pms/img/pit.png" width=“60px” height='50' alt="User Image">
+                                            <img src="<?php echo BASE_URL; ?>/img/pit.png" width=“60px” height='50' alt="User Image">
                                             <!-- class="img-circle elevation-2" -->
                                         </i> Point IT
                                         <small><span class='badge badge-secondary float-right'>Create Date :
@@ -162,39 +162,39 @@
                                         <div class="col-sm mt-3">
                                             <td  scope="col" class="text-nowrap text-center" height="" width="100">
                                                 
-                                                    <a href="../pms/example/<?php echo $res_search["file_im1"]; ?>" data-lightbox="image-1" data-title="../pms/example/<?php echo $res_search["file_im1"]; ?>  (<?php echo $res_search["file_im1"]; ?>)" class="img-fluid "   >
+                                                    <a href="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im1"]; ?>" data-lightbox="image-1" data-title="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im1"]; ?>  (<?php echo $res_search["file_im1"]; ?>)" class="img-fluid "   >
                                                             <?php
                                                                 if($res_search["file_im1"] ==''){
                                                                     echo "<span class='badge badge-warning'>No Image</span>";
                                                                 }elseif($res_search["file_im1"]){
-                                                                    echo '<img class=""  width="100" height="120" src="../pms/example/'.$res_search["file_im1"].'"'; //imgx
+                                                                    echo '<img class=""  width="100" height="120" src="<?php echo BASE_URL; ?>/example/'.$res_search["file_im1"].'"'; //imgx
                                                                 }
                                                             ?>
                                                     </a>
-                                                    <a href="../pms/example/<?php echo $res_search["file_im2"]; ?>" data-lightbox="image-1" data-title="../pms/example/<?php echo $res_search["file_im2"]; ?>  (<?php echo $res_search["file_im2"]; ?>)" class="img-fluid "   >
+                                                    <a href="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im2"]; ?>" data-lightbox="image-1" data-title="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im2"]; ?>  (<?php echo $res_search["file_im2"]; ?>)" class="img-fluid "   >
                                                             <?php
                                                                 if($res_search["file_im2"] ==''){
                                                                     echo "<span class='badge badge-warning'>No Image</span>";
                                                                 }elseif($res_search["file_im2"]){
-                                                                    echo '<img class=""  width="100" height="120" src="../pms/example/'.$res_search["file_im2"].'"'; //imgx
+                                                                    echo '<img class=""  width="100" height="120" src="<?php echo BASE_URL; ?>/example/'.$res_search["file_im2"].'"'; //imgx
                                                                 }
                                                             ?>
                                                     </a>
-                                                    <a href="../pms/example/<?php echo $res_search["file_im3"]; ?>" data-lightbox="image-1" data-title="../pms/example/<?php echo $res_search["file_im3"]; ?>  (<?php echo $res_search["file_im3"]; ?>)" class="img-fluid "   >
+                                                    <a href="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im3"]; ?>" data-lightbox="image-1" data-title="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im3"]; ?>  (<?php echo $res_search["file_im3"]; ?>)" class="img-fluid "   >
                                                             <?php
                                                                 if($res_search["file_im3"] ==''){
                                                                     echo "<span class='badge badge-warning'>No Image</span>";
                                                                 }elseif($res_search["file_im3"]){
-                                                                    echo '<img class=""  width="100" height="120" src="../pms/example/'.$res_search["file_im3"].'"'; //imgx
+                                                                    echo '<img class=""  width="100" height="120" src="<?php echo BASE_URL; ?>/example/'.$res_search["file_im3"].'"'; //imgx
                                                                 }
                                                             ?>
                                                     </a>
-                                                    <a href="../pms/example/<?php echo $res_search["file_im4"]; ?>" data-lightbox="image-1" data-title="../pms/example/<?php echo $res_search["file_im4"]; ?>  (<?php echo $res_search["file_im4"]; ?>)" class="img-fluid "   >
+                                                    <a href="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im4"]; ?>" data-lightbox="image-1" data-title="<?php echo BASE_URL; ?>/example/<?php echo $res_search["file_im4"]; ?>  (<?php echo $res_search["file_im4"]; ?>)" class="img-fluid "   >
                                                             <?php
                                                                 if($res_search["file_im4"] ==''){
                                                                     echo "<span class='badge badge-warning'>No Image</span>";
                                                                 }elseif($res_search["file_im4"]){
-                                                                    echo '<img class=""  width="100" height="120" src="../pms/example/'.$res_search["file_im4"].'"'; //imgx
+                                                                    echo '<img class=""  width="100" height="120" src="<?php echo BASE_URL; ?>/example/'.$res_search["file_im4"].'"'; //imgx
                                                                 }
                                                             ?>
                                                     </a>
@@ -202,12 +202,12 @@
                                             </td> <br>
                                             <td  scope="col" class="text-nowrap text-center" height="" width="120">
                                                 
-                                                    <a href="../pms/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="../pms/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
+                                                    <a href="<?php echo BASE_URL; ?>/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="<?php echo BASE_URL; ?>/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
                                                         <?php
                                                             if($res_search["file_test"] ==''){
                                                                 echo "<span class='badge badge-info'>No Image</span>";
                                                                 }elseif($res_search["file_test"]){
-                                                                    echo '<img class=""  width="100" height="120" src="../pms/test/'.$res_search["file_test"].'"'; //imgx
+                                                                    echo '<img class=""  width="100" height="120" src="<?php echo BASE_URL; ?>/test/'.$res_search["file_test"].'"'; //imgx
                                                                 }
                                                         ?>
                                                     </a>
@@ -310,12 +310,12 @@
        
                                             </td>
                                             <td  scope="col" class="text-nowrap text-center" height="" width="100">
-                                                <a href="../pms/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="../pms/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
+                                                <a href="<?php echo BASE_URL; ?>/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="<?php echo BASE_URL; ?>/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
                                                     <?php
                                                         if($res_search["file_test"] ==''){
                                                             echo "<span class='badge badge-warning'>No Image</span>";
                                                         }elseif($res_search["file_test"]){
-                                                            echo '<img class="imgx"  width="85" height="85" src="../pms/test/'.$res_search["file_test"].'"';
+                                                            echo '<img class="imgx"  width="85" height="85" src="<?php echo BASE_URL; ?>/test/'.$res_search["file_test"].'"';
                                                         }
                                                     ?>
                                                 </a>
@@ -364,12 +364,12 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../pms/templated/footer.php"); ?>
+    <?php include_once("templated/footer.php"); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- Ekko Lightbox -->
-    <script src="../pms/code/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
-    <script src="../pms/code/plugins/filterizr/jquery.filterizr.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/code/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/code/plugins/filterizr/jquery.filterizr.min.js"></script>
 
     <script>
     $(function() {
@@ -390,7 +390,7 @@
     })
     </script>
 
-    <script src="../pms/code/dist/js/lightbox.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/code/dist/js/lightbox.min.js"></script>
 
 
     <!-- highlight -->
@@ -413,7 +413,7 @@
         $staff_edit = $_POST['staff_edit'];
         $date_edit = $_POST['date_edit'];
 
-        $target_dir1 = "../pms/test/";
+        $target_dir1 = "test/";
         $target_file1 = $target_dir1 . basename($_FILES["file_test"]["name"]);
         $imageFileType1 = strtolower(pathinfo($target_file1, PATHINFO_EXTENSION));
         $file_test = $_FILES["file_test"]["name"] ;
@@ -437,7 +437,7 @@
 
             $file_upfile1 = $_FILES['file_test']['name'];
             $file_tmp1 = $_FILES['file_test']['tmp_name'];
-            move_uploaded_file($file_tmp1, "../pms/test/$file_upfile1");
+            move_uploaded_file($file_tmp1, "test/$file_upfile1");
 
 
     
@@ -482,7 +482,7 @@
                     $sMessage .= "-------------------------- \n";
                     $sMessage .= "✅ คำแนะ/แก้ไข : ".$add_task."\n\n";
 
-                    $sMessage .= "ติดตามงานได้ที่ Link Web: http://iss.pointit.co.th/pms/view.php?id=$_GET[id] \n\n";
+                    $sMessage .= "ติดตามงานได้ที่ Link Web: http://localhost" . BASE_URL . "/view.php?id=$_GET[id] \n\n";
                     $sMessage .= "@All \n";
         
                     

@@ -15,58 +15,58 @@
 </div>
 <!-- ./wrapper -->
 <!-- jQuery -->
-  <script src="http://localhost/pms/code/plugins/jquery/jquery.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-  <script src="http://localhost/pms/code/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- DataTables  & Plugins -->
-  <script src="http://localhost/pms/code/plugins/datatables/jquery.dataTables.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/jszip/jszip.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/pdfmake/pdfmake.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/pdfmake/vfs_fonts.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-buttons/js/buttons.print.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables/jquery.dataTables.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/jszip/jszip.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/pdfmake/pdfmake.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/pdfmake/vfs_fonts.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 <!-- sweetalert -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.min.js"></script>
 <!-- Toastr -->
-  <script src="http://localhost/pms/code/plugins/toastr/toastr.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/toastr/toastr.min.js"></script>
 <!-- Select2 -->
-  <script src="http://localhost/pms/code/plugins/select2/js/select2.full.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/select2/js/select2.full.min.js"></script>
 <!-- date-range-picker -->
-  <script src="http://localhost/pms/code/plugins/daterangepicker/daterangepicker.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- InputMask -->
-  <script src="http://localhost/pms/code/plugins/moment/moment.min.js"></script>
-  <script src="http://localhost/pms/code/plugins/inputmask/jquery.inputmask.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/moment/moment.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/inputmask/jquery.inputmask.min.js"></script>
 <!-- bootstrap color picker -->
-  <script src="http://localhost/pms/code/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
 <!-- date-range-picker -->
-  <script src="http://localhost/pms/code/plugins/daterangepicker/daterangepicker.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- bootstrap color picker -->
-  <script src="http://localhost/pms/code/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
 <!-- Tempusdominus Bootstrap 4 -->
-  <script src="http://localhost/pms/code/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
 <!-- Bootstrap Switch -->
-  <script src="http://localhost/pms/code/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
 <!-- BS-Stepper -->
-  <script src="http://localhost/pms/code/plugins/bs-stepper/js/bs-stepper.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/bs-stepper/js/bs-stepper.min.js"></script>
 <!-- dropzonejs -->
-  <script src="http://localhost/pms/code/plugins/dropzone/min/dropzone.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/dropzone/min/dropzone.min.js"></script>
 <!-- Bootstrap4 Duallistbox -->
-  <script src="http://localhost/pms/code/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
 <!-- bs-custom-file-input -->
-  <script src="http://localhost/pms/code/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
 <!-- Summernote -->
-  <script src="http://localhost/pms/code/plugins/summernote/summernote-bs4.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/summernote/summernote-bs4.min.js"></script>
 <!-- CodeMirror -->
-  <script src="http://localhost/pms/code/plugins/codemirror/codemirror.js"></script>
-  <script src="http://localhost/pms/code/plugins/codemirror/mode/css/css.js"></script>
-  <script src="http://localhost/pms/code/plugins/codemirror/mode/xml/xml.js"></script>
-  <script src="http://localhost/pms/code/plugins/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/codemirror/codemirror.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/codemirror/mode/css/css.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/codemirror/mode/xml/xml.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/plugins/codemirror/mode/htmlmixed/htmlmixed.js"></script>
 <!-- AdminLTE for demo purposes -->
 
 
@@ -86,7 +86,7 @@
 </script>
 
 <!-- AdminLTE App -->
-  <script src="http://localhost/pms/code/dist/js/adminlte.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>/code/dist/js/adminlte.min.js"></script>
 
 <!-- Page specific script -->
 <script>
@@ -368,7 +368,7 @@ $(function () {
         body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
         title: 'Toast Title',
         subtitle: 'Subtitle',
-        image: 'http://localhost/pms/code/dist/img/user3-128x128.jpg',
+        image: '<?php echo BASE_URL; ?>/code/dist/img/user3-128x128.jpg',
         imageAlt: 'User Picture',
       })
     });

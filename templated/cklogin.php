@@ -2,7 +2,7 @@
 
     <!-- Start Configrate  -->
     <?php
-          include($_SERVER['DOCUMENT_ROOT'] . '/pms/connection/connection.php');
+          include_once(dirname(__DIR__) . '/connection/connection.php');
     ?>
       
     <?php    

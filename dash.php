@@ -52,11 +52,11 @@
     <!-- highlight -->
 
     <!----------------------------- start header ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/head.php'); ?>
+    <?php include_once('templated/head.php'); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/menu.php'); ?>
+    <?php include_once('templated/menu.php'); ?>
     <!----------------------------- end menu --------------------------------->
 
 
@@ -492,11 +492,11 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/footer.php'); ?>
+    <?php include_once('templated/footer.php'); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- highlight -->
-    <script src="http://localhost/pms/code/dist/js/highlight.js"></script>
+    <script src="<?php echo BASE_URL; ?>/code/dist/js/highlight.js"></script>
 
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

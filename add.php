@@ -9,11 +9,11 @@
 
 
     <!----------------------------- start header ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/head.php'); ?>
+    <?php include_once('templated/head.php'); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/menu.php'); ?>
+    <?php include_once('templated/menu.php'); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!----------------------------- start Time ------------------------------->
@@ -435,7 +435,7 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../pms/templated/footer.php"); ?>
+    <?php include_once("templated/footer.php"); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- highlight -->

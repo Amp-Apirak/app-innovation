@@ -9,11 +9,11 @@
 
 
     <!----------------------------- start header ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/head.php'); ?>
+    <?php include_once('templated/head.php'); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/menu.php'); ?>
+    <?php include_once('templated/menu.php'); ?>
     <!----------------------------- end menu --------------------------------->
 
   <!----------------------------- start Time ------------------------------->
@@ -58,7 +58,7 @@
 
         if($file_im1 !=''){
             $file_tmp = $_FILES['file_im1']['tmp_name'];
-            move_uploaded_file($file_tmp, "../pms/example/$file_im1");
+            move_uploaded_file($file_tmp, "example/$file_im1");
             
 
         }else {
@@ -67,7 +67,7 @@
             
         }if ($file_im2 !=''){
             $file_tmp = $_FILES['file_im2']['tmp_name'];
-            move_uploaded_file($file_tmp, "../pms/example/$file_im2");
+            move_uploaded_file($file_tmp, "example/$file_im2");
 
         }else {
 
@@ -75,7 +75,7 @@
 
         }if ($file_im3 !=''){
             $file_tmp = $_FILES['file_im3']['tmp_name'];
-            move_uploaded_file($file_tmp, "../pms/example/$file_im3");
+            move_uploaded_file($file_tmp, "example/$file_im3");
 
         }else {
 
@@ -83,7 +83,7 @@
         
         }if ($file_im4 !=''){
             $file_tmp = $_FILES['file_im4']['tmp_name'];
-            move_uploaded_file($file_tmp, "../pms/example/$file_im4");
+            move_uploaded_file($file_tmp, "example/$file_im4");
 
         }else {
 
@@ -91,7 +91,7 @@
 
         }if ($file_test !=''){
             $file_tmp = $_FILES['file_test']['tmp_name'];
-            move_uploaded_file($file_tmp, "../pms/test/$file_test");
+            move_uploaded_file($file_tmp, "test/$file_test");
 
         }else {
 
@@ -146,7 +146,7 @@
                                         $sMessage .= "-------------------------- \n";
                                         $sMessage .= "✅ คำแนะ/แก้ไข : ".$add_task."\n\n";
 
-                                        $sMessage .= "ติดตามงานได้ที่ Link Web: http://iss.pointit.co.th/pms/view.php?id=$_GET[id] \n\n";
+                                        $sMessage .= "ติดตามงานได้ที่ Link Web: http://localhost" . BASE_URL . "/view.php?id=$_GET[id] \n\n";
                                         $sMessage .= "@All \n";
                             
                                         
@@ -623,7 +623,7 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../pms/templated/footer.php"); ?>
+    <?php include_once("templated/footer.php"); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- highlight -->

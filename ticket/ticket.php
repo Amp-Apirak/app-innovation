@@ -53,11 +53,11 @@
     <!-- highlight -->
 
     <!----------------------------- start header ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/head.php'); ?>
+    <?php include_once('../templated/head.php'); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/menu.php'); ?>
+    <?php include_once('../templated/menu.php'); ?>
     <!----------------------------- end menu --------------------------------->
 
 
@@ -75,7 +75,7 @@
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="/pms/index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo BASE_URL; ?>/index.php">Home</a></li>
                             <li class="breadcrumb-item active">Ticket Management</li>
                         </ol>
                     </div>
@@ -492,7 +492,7 @@
                                             <!-- แบบฟอร์มค้นหา (filter) -->
                                         </div>
                                         <div class="card-body">
-                                            <form action="/pms/ticket/ticket.php" method="POST">
+                                            <form action="<?php echo BASE_URL; ?>/ticket/ticket.php" method="POST">
                                                 <div class="row">
                                                     <div class="col-sm-3">
                                                         <div class="form-group ">
@@ -617,7 +617,7 @@
 
 
                         <div class="col-md-12 pb-3">
-                            <a href="/pms/add.php" class="btn btn-success btn-sm float-right"> Add <i class=""></i></a>
+                            <a href="<?php echo BASE_URL; ?>/add.php" class="btn btn-success btn-sm float-right"> Add <i class=""></i></a>
                         </div><br>
 
 
@@ -691,7 +691,7 @@
                                                 </td>
 
                                                 <td scope="col" class="" id="mylayout_2">
-                                                    <a href="/pms/view.php?id=<?php echo $res_search["work_id"]; ?>" target="_blank"> <?php echo $res_search["subject"]; ?></a>
+                                                    <a href="<?php echo BASE_URL; ?>/view.php?id=<?php echo $res_search["work_id"]; ?>" target="_blank"> <?php echo $res_search["subject"]; ?></a>
 
                                                     <?php
                                                     if ($res_search["add_task"] == '') {
@@ -910,11 +910,11 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/pms/templated/footer.php'); ?>
+    <?php include_once('../templated/footer.php'); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- highlight -->
-    <script src="http://localhost/pms/code/dist/js/highlight.js"></script>
+    <script src="<?php echo BASE_URL; ?>/code/dist/js/highlight.js"></script>
 
 
 

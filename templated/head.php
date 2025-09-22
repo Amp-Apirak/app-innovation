@@ -7,7 +7,7 @@
 
 <!-- Start Configrate  -->
     <?php
-        include($_SERVER['DOCUMENT_ROOT'] . '/pms/connection/connection.php');
+        include_once(dirname(__DIR__) . '/connection/connection.php');
     ?>
 <!-- End Configrate  -->
 
@@ -48,47 +48,47 @@
 
 
 <!-- lightbox -->
-<link rel="stylesheet" href="http://localhost/pms/code/dist/css/lightbox.min.css">
+<link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/dist/css/lightbox.min.css">
 <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 <!-- Font Awesome -->
-    <link rel="stylesheet" href="http://localhost/pms/code/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/fontawesome-free/css/all.min.css">
 <!-- Select2 -->
-    <link rel="stylesheet" href="http://localhost/pms/code/plugins/select2/css/select2.min.css">
-    <link rel="stylesheet" href="http://localhost/pms/code/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
 <!-- DataTables -->
-    <link rel="stylesheet" href="http://localhost/pms/code/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="http://localhost/pms/code/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
-    <link rel="stylesheet" href="http://localhost/pms/code/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 <!-- Theme style -->
-    <link rel="stylesheet" href="http://localhost/pms/code/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/dist/css/adminlte.min.css">
 <!-- Toastr -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/toastr/toastr.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/toastr/toastr.min.css">
 <!-- sweetalert -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 <!-- daterange picker -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/daterangepicker/daterangepicker.css">
 <!-- iCheck for checkboxes and radio inputs -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
 <!-- BS Stepper -->
-    <link rel="stylesheet" href="http://localhost/pms/code/plugins/bs-stepper/css/bs-stepper.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/bs-stepper/css/bs-stepper.min.css">
 <!-- dropzonejs -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/dropzone/min/dropzone.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/dropzone/min/dropzone.min.css">
 <!-- Bootstrap Color Picker -->
-   <link rel="stylesheet" href="http://localhost/pms/code/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+   <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
 <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
 <!-- Bootstrap4 Duallistbox -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
 <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 <!-- summernote -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/summernote/summernote-bs4.min.css">
 <!-- CodeMirror -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/codemirror/codemirror.css">
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/codemirror/theme/monokai.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/codemirror/codemirror.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/codemirror/theme/monokai.css">
 <!-- SimpleMDE -->
-  <link rel="stylesheet" href="http://localhost/pms/code/plugins/simplemde/simplemde.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/code/plugins/simplemde/simplemde.min.css">
   
 
 <!-- ความกว้างของตารางแสดงผล -->
@@ -112,7 +112,7 @@ td#mylayout_3{
 
 
 </head>
-        <link rel="icon" type="image/x-icon" href=http://localhost/pms/img/faviconn.ico>
+        <link rel="icon" type="image/x-icon" href=<?php echo BASE_URL; ?>/img/faviconn.ico>
 
     <div class="wrapper">
 

@@ -2,8 +2,8 @@
 <aside class="main-sidebar elevation-4 sidebar-light-danger">
 
   <!-- โลโก้ -->
-  <a href="http://localhost/pms/index.php" class="brand-link bg-danger">
-    <img src="http://localhost/pms/img/up1.png" alt="PMS Management" class="brand-image img-circle elevation-3" style="opacity: .8">
+  <a href="<?php echo BASE_URL; ?>/index.php" class="brand-link bg-danger">
+    <img src="<?php echo BASE_URL; ?>/img/up1.png" alt="PMS Management" class="brand-image img-circle elevation-3" style="opacity: .8">
     <span class="brand-text font-weight-light">PMS Management</span>
   </a>
 
@@ -14,12 +14,12 @@
       <!-- ข้อมูลผู้ใช้ -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="http://localhost/pms/img/002.png" class="img-circle elevation-2" alt="User Image">
+          <img src="<?php echo BASE_URL; ?>/img/002.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="http://localhost/pms/profile.php"><?php echo ($_SESSION['contact_name']); ?></a><br>
-          <a href="http://localhost/pms/profile.php"><?php echo ($_SESSION['position']); ?></a><br>
-          <a href="http://localhost/pms/logout.php"><i class="nav-icon fa fa-sign-in">Logout</i></a>
+          <a href="<?php echo BASE_URL; ?>/profile.php"><?php echo ($_SESSION['contact_name']); ?></a><br>
+          <a href="<?php echo BASE_URL; ?>/profile.php"><?php echo ($_SESSION['position']); ?></a><br>
+          <a href="<?php echo BASE_URL; ?>/logout.php"><i class="nav-icon fa fa-sign-in">Logout</i></a>
         </div>
       </div>
   <?php } ?>
@@ -30,7 +30,7 @@
 
           <!-- Dashboard -->
           <li class="nav-item">
-            <a href="http://localhost/pms/dash.php" class="nav-link <?php if ($menu == "dash") { echo "active"; } ?>">
+            <a href="<?php echo BASE_URL; ?>/dash.php" class="nav-link <?php if ($menu == "dash") { echo "active"; } ?>">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>Dashboard</p>
             </a>
@@ -38,7 +38,7 @@
 
           <!-- All Job -->
           <li class="nav-item">
-            <a href="http://localhost/pms/ticket/ticket.php" class="nav-link <?php if ($menu == "ticket") { echo "active"; } ?>">
+            <a href="<?php echo BASE_URL; ?>/ticket/ticket.php" class="nav-link <?php if ($menu == "ticket") { echo "active"; } ?>">
               <i class="nav-icon fas fa-vial"></i>
               <p>All Job</p>
             </a>
@@ -46,7 +46,7 @@
 
           <!-- Test Case -->
           <li class="nav-item">
-            <a href="http://localhost/pms/index.php" class="nav-link <?php if ($menu == "index") { echo "active"; } ?>">
+            <a href="<?php echo BASE_URL; ?>/index.php" class="nav-link <?php if ($menu == "index") { echo "active"; } ?>">
               <i class="nav-icon fa fa-desktop"></i>
               <p>Test Case</p>
             </a>
